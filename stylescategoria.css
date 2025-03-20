@@ -1,0 +1,47 @@
+footer {
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+header {
+        position: relative;
+}
+
+.barraBusqueda {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedorBarra {
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenedorBarra select{
+    border-style: none;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contenedorBarra button {
+    width: 30%;
+    border-style: none;
+    font-size: 15px;
+}
+
+.contenedor-pokemon {
+    position: relative;
+    top: 30px;
+}
