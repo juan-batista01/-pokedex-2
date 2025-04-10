@@ -180,6 +180,9 @@ function navBar(){
         $(".search-bar").css("display","flex");
         $("#Cmenu").removeClass();
         $("#Cmenu").addClass("bi bi-x");
+        document.documentElement.style.setProperty('--valor', '290px');
+
+
 
     }else {
 
@@ -187,6 +190,7 @@ function navBar(){
         $(".search-bar").css("display","none");
         $("#Cmenu").removeClass();
         $("#Cmenu").addClass("bi bi-list");
+        document.documentElement.style.setProperty('--valor', '80px');
 
     }
     
