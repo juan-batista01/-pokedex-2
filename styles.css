@@ -1,3 +1,7 @@
+:root{
+    --valor: 80px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -589,7 +593,7 @@ footer li{
         display: block;
         padding: 0;
         position: relative;
-        top: 70px;
+        top: var(--valor);
         margin-bottom: 30px;
     }
 
