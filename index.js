@@ -162,6 +162,8 @@ function redContacto(Elemento) {
 
         default:
             alert("No existe esta opcion");
+
+    
     }
 
 }
@@ -169,3 +171,23 @@ function redContacto(Elemento) {
 
 
 
+function navBar(){
+
+    let variable = $("#Cmenu").attr("class");
+
+    if(variable == "bi bi-list"){
+        $("nav").css("display","block");
+        $(".search-bar").css("display","flex");
+        $("#Cmenu").removeClass();
+        $("#Cmenu").addClass("bi bi-x");
+
+    }else {
+
+        $("nav").css("display","none");
+        $(".search-bar").css("display","none");
+        $("#Cmenu").removeClass();
+        $("#Cmenu").addClass("bi bi-list");
+
+    }
+    
+}
